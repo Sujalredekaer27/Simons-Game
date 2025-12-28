@@ -1,29 +1,33 @@
-# Simons-Game
+# Simon Game 🎮
 
-# My Web Projects
 
-This repository contains two interactive web applications built with HTML, CSS, and JavaScript.
+A classic memory-based game built with Vanilla JavaScript, HTML5, and CSS3. The game challenges players to remember and repeat an ever-increasing sequence of random colors.
 
-## 1. Simon Game 🎮
-A memory-based game where the user follows a sequence of flashing colors.
-* **How to play:** Press any key to start. Watch the sequence and click the buttons in the correct order.
-* **Key Features:** * Dynamic level progression.
-    * Randomized sequence generation.
-    * Game over state with score tracking.
+## 🚀 How to Play
+1. **Start:** Press any key on your keyboard to begin the game.
+2. **Watch:** The game will flash a button (e.g., Pink, Green, Orange, or Purple).
+3. **Repeat:** Click the buttons in the exact same order they were flashed.
+4. **Level Up:** Every time you complete the sequence correctly, the game adds a new random color to the pattern and increases the level.
+5. **Game Over:** If you click the wrong color, the screen will flash red, and you'll see your final score. Press any key to try again!
 
-## 2. Todo List ✅
-A simple productivity tool to manage daily tasks.
-* **Key Features:**
-    * Add new tasks.
-    * Mark tasks as completed.
-    * Clean, responsive user interface.
+## 🛠️ Features
+* **Dynamic Sequencing:** Uses JavaScript arrays to track and compare game vs. user patterns.
+* **Visual Feedback:** Custom CSS classes for "flashing" effects when the game plays or the user clicks.
+* **Score Tracking:** Real-time level updates in the header.
+* **Responsive Logic:** Handles game resets and start states automatically.
 
-## Technologies Used
-* **HTML5:** Structure and content.
-* **CSS3:** Styling and animations (including flash effects).
-* **JavaScript (DOM):** Game logic, event listeners, and dynamic UI updates.
+## 💻 Tech Stack
+* **HTML5:** Semantic structure for the game board.
+* **CSS3:** Flexbox layout, rounded UI design, and transition animations.
+* **JavaScript:** DOM manipulation, event listeners, and asynchronous timing (`setTimeout`).
 
----
-*Created as part of my web development learning journey.*
+## 📂 Project Structure
+* `simonsHtml.html` - The game interface.
+* `simonsCss.css` - Styles and "flash" animations.
+* `simonsJs.js` - Game logic and sequence engine.
+
+-----------------------------------------------------------------------------------------------
+
+*Developed as a project to master DOM manipulation and JavaScript logic.*
 ------------------------------------------------------------------------------------------------------
 https://github.com/Sujalredekaer27/Simons-Game.git
