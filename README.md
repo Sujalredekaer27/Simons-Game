@@ -22,8 +22,8 @@ A classic memory-based game built with Vanilla JavaScript, HTML5, and CSS3. The 
 * **JavaScript:** DOM manipulation, event listeners, and asynchronous timing (`setTimeout`).
 
 ## 📂 Project Structure
-* `simonsHtml.html` - The game interface.
-* `simonsCss.css` - Styles and "flash" animations.
+* `index.html` - The game interface.
+* `style.css` - Styles and "flash" animations.
 * `simonsJs.js` - Game logic and sequence engine.
 
 -----------------------------------------------------------------------------------------------
