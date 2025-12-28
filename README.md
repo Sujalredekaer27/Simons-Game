@@ -24,7 +24,7 @@ A classic memory-based game built with Vanilla JavaScript, HTML5, and CSS3. The 
 ## 📂 Project Structure
 * `index.html` - The game interface.
 * `style.css` - Styles and "flash" animations.
-* `simonsJs.js` - Game logic and sequence engine.
+* `app.js` - Game logic and sequence engine.
 
 -----------------------------------------------------------------------------------------------
 
